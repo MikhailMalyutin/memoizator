@@ -1,14 +1,15 @@
-package ru.msm.memoizer.impl;
+package ru.msm.memoizer.reflection;
+
+import ru.msm.memoizer.cache.CacheKey;
 
 import java.util.List;
 
 /**
- * Ключ кеширования, у которого переопределены hashCode, equals таким образом, что пробегают
- * по всем нетранзиентным полям и всем вложенным объектам
+ * Key for memoization with overloaded hashCode and equals by reflection
  */
 public class ReflectiveCacheKey implements CacheKey {
 
-    private static final long serialVersionUID = 3675455378328463794L;
+    private static final long serialVersionUID = 3675455378328463567L;
 
     private List<Object> objects;
 

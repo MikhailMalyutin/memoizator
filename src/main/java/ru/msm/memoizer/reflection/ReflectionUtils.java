@@ -1,4 +1,4 @@
-package ru.msm.memoizer.impl;
+package ru.msm.memoizer.reflection;
 
 import org.apache.commons.lang.StringUtils;
 

@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.unitils.UnitilsTestNG;
 import ru.msm.memoizer.data.TestData;
-import ru.msm.memoizer.impl.DeepHashCodeBuilder;
+import ru.msm.memoizer.reflection.DeepHashCodeBuilder;
 
 public class DeepHashCodeBuilderTest extends UnitilsTestNG {
     @Test

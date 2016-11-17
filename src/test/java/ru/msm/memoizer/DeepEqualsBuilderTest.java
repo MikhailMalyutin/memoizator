@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.unitils.UnitilsTestNG;
 import ru.msm.memoizer.data.TestData;
-import ru.msm.memoizer.impl.DeepEqualsBuilder;
+import ru.msm.memoizer.reflection.DeepEqualsBuilder;
 
 public class DeepEqualsBuilderTest extends UnitilsTestNG {
     @Test

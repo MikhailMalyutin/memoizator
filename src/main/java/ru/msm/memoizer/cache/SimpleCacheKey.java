@@ -1,4 +1,4 @@
-package ru.msm.memoizer.impl;
+package ru.msm.memoizer.cache;
 
 import java.util.List;
 
