@@ -1,4 +1,4 @@
-package ru.msm.memoizer;
+package ru.msm.memoizer.impl;
 
 import org.apache.commons.lang.builder.EqualsBuilder;
 

@@ -1,6 +1,6 @@
-package ru.msm.memoizer;
+package ru.msm.memoizer.data;
 
-public class DataFactory {
+public class TestData {
 ///////////////////////////////////////////////////////////////////////////////
     public static class TestObject1 {
         private String field1;
