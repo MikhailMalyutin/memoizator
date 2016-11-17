@@ -1,7 +1,7 @@
 package ru.msm.memoizer;
 
+import org.junit.Test;
 import org.testng.Assert;
-import org.testng.annotations.Test;
 import org.unitils.UnitilsTestNG;
 import ru.msm.memoizer.data.TestData;
 import ru.msm.memoizer.reflection.DeepEqualsBuilder;
